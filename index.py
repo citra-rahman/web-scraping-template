@@ -40,7 +40,7 @@ for url in urls:
 df = pd.DataFrame(all_articles)
 
 # Save the results to a CSV file
-df.to_json("pharma_news.json")
+df.to_csv("pharma_news.csv")
 print("Scraping completed. The results have been saved to 'pharma_news.csv'.")
 
 # Display the first few rows of the DataFrame
